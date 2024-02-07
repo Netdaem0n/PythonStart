@@ -1,5 +1,7 @@
 # Основы программирования Python
+# https://www.online-python.com/
 
+print('Hello world')
 
 # Переменные
 
