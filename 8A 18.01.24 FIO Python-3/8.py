@@ -1,14 +1,14 @@
-# dlina - произвольное число
-# shirina - произвольное число
-# vibor - произвольное число
+# dlina - произвольное число длина
+# shirina - произвольное число ширина
+# vibor - произвольное число периметр или площадь
 
-dlina = int(input('Введите длину: '))
-shirina = int(input('Введите ширину: '))
-vibor = input('Код программы (P или S): ')
+dlina = int(input())
+shirina = int(input())
+vibor = input()
 
 if vibor == 'P':
-    print(2 * (dlina + shirina))
+    print('P =', 2 * (dlina + shirina))
 elif vibor == 'S':
-    print(dlina * shirina)
+    print('S =', dlina * shirina)
 else:
     print('Ошибка, введите P или S')

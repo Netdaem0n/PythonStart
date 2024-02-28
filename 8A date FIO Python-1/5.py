@@ -1,5 +1,0 @@
-kolvo_tovara = int(input('Введите кол-во товара '))
-price_t = int(input('Введите цену тетрадки '))
-price_o = int(input('Введите цену обложки '))
-totall = (kolvo_tovara * price_t) + (kolvo_tovara * price_o)
-print('Стоимость покупки составила', totall, 'рублей')
